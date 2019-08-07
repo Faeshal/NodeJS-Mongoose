@@ -9,7 +9,7 @@ app.set("views", "views");
 
 const adminRoutes = require("./routes/admin");
 
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use  (bodyParser.urlencoded({ extended: false }));
 
 app.use(adminRoutes);
 
